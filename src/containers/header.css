@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  background: url(/top_bg.jpg) repeat-x;
+}
+
+@font-face {
+  font-family: 'Conv_CALIBRI';
+  src: url('../fonts/CALIBRI.eot');
+  src: local('â˜º'), url('../fonts/CALIBRI.woff') format('woff'),
+    url('../fonts/CALIBRI.ttf') format('truetype'),
+    url('../fonts/CALIBRI.svg') format('svg');
+}
+
+#wrapper {
+  width: 962px;
+  margin: 0px auto;
+}
+#header {
+  background: url(/nav_bg.png) no-repeat;
+  background-position: top center;
+  padding-top: 26px;
+  height: 68px;
+}
+#logo {
+  position: absolute;
+  top: 10px;
+  margin-left: 401px;
+}
+#navigation {
+  margin: 0px 25px 0px 25px;
+  /* margin: 0px 10px 0px 10px; */
+  background: url(/nav_bg.jpg) repeat-x;
+
+  padding-right: 0px;
+
+  border-right: solid 2px #8dd3ff;
+}
+
+#navigation ul {
+  list-style-type: none;
+}
+
+#navigation li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #dbf1ff;
+  float: left;
+  display: block;
+  line-height: 38px;
+}
+
+#navigation li a {
+  margin-top: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+
+  display: block;
+  text-decoration: none;
+  color: #dbf1ff;
+}
+
+#navigation li a:hover {
+  color: #fff;
+  background: url(/nav_bg_hover.jpg) repeat-x top;
+}
+
+#navigation .activate {
+  color: #fff;
+  background: url(/nav_bg_hover.jpg) repeat-x top;
+  background-position: 0px 2px;
+}
+
+.nav_left_bg {
+  background: url(/nav_left.jpg) no-repeat;
+  float: left;
+  width: 4px;
+  height: 42px;
+}
